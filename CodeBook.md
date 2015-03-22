@@ -82,7 +82,18 @@ The file contains a table that can be read into R with the code like:
 
 <code>data <- read.table("tidy_data.txt", header = TRUE)</code>
 
-The table has 68 columns and 180 rows. The first two colums contain a unique combination of subject number and activity label out of 180 possible combinations (6 activities by 30 subjects). The last 66 columns contain average (mean) values for all the 66 feature variables that we have selected among 561 features of the original dataset for this given combination of subject and activity. Below is the complete list of selected features with their corresponding numbers from the <b>features.txt</b> file of the original dataset -- these features are averaged in our resulting dataset. Detailed information about these features can be found in the <b>features_info.txt</b> file of the original dataset.
+The table has 68 columns and 180 rows. The first two colums contain a unique combination of subject number (1 to 30) and activity label out of 180 possible combinations (6 activities by 30 subjects). Activity can be one of the following:
+
+<pre>
+1 walking
+2 walking upstairs
+3 walking downstairs
+4 sitting
+5 standing
+6 laying
+</pre>
+
+The last 66 columns contain average (mean) values for all the 66 feature variables that we have selected among 561 features of the original dataset for this given combination of subject and activity. Below is the complete list of selected features with their corresponding numbers from the <b>features.txt</b> file of the original dataset -- these features are averaged in our resulting dataset. Detailed information about these features and their measurement units can be found in the <b>features_info.txt</b> file of the original dataset.
 
 <pre>
 1 tBodyAcc-mean()-X
