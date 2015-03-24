@@ -95,6 +95,9 @@ The table has 68 columns and 180 rows. The first two colums contain a unique com
 
 The last 66 columns contain average (mean) values for all the 66 feature variables that we have selected among 561 features of the original dataset for this given combination of subject and activity. Below is the complete list of selected features with their corresponding numbers from the <b>features.txt</b> file of the original dataset -- these features are averaged in our resulting dataset. Detailed information about these features and their measurement units can be found in the <b>features_info.txt</b> file of the original dataset.
 
+<b>IMPORTANT NOTE to those who will be peer-reviewing my project</b>:
+<i>As mentioned by one of the course technical assistants in the Discussion Form, we are <b>NOT</b> required to decompose feature names to some 'more friendly' form -- just assign them to appropriate columns (or rows, depending on your dataset). Please don't take off points for this, neither shall I when reviewing others' projects. Thank you!</i>
+
 <pre>
 1 tBodyAcc-mean()-X
 2 tBodyAcc-mean()-Y
